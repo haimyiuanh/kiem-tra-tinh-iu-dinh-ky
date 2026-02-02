@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>KIỂM TRA TÌNH IU ĐỊNH KỲ <3 </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>KIỂM TRA BÀI CŨ</h1>
+
+        <form id="quizForm">
+            <div class="question">
+                <p>1. Thủ đô của Việt Nam là gì?</p>
+                <label><input type="radio" name="q1" value="A"> A. TP.HCM</label><br>
+                <label><input type="radio" name="q1" value="B"> B. Hà Nội</label><br>
+                <label><input type="radio" name="q1" value="C"> C. Đà Nẵng</label>
+            </div>
+
+            <div class="question">
+                <p>2. 2 + 2 = ?</p>
+                <label><input type="radio" name="q2" value="A"> A. 3</label><br>
+                <label><input type="radio" name="q2" value="B"> B. 4</label><br>
+                <label><input type="radio" name="q2" value="C"> C. 5</label>
+            </div>
+
+            <button type="button" onclick="checkResult()">Nộp bài</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
