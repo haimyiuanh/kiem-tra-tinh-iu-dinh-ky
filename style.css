@@ -30,7 +30,7 @@ body {
     position: absolute;
     top: -25px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-100%);
     font-size: 35px;
     background: #ffe6eb;
     padding: 0 10px;
