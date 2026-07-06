@@ -4,6 +4,9 @@ function checkResult() {
     const answers = {
         q1: "B",
         q2: "B"
+        q3: "B"
+        q4: "B"
+        q5: "C" 
     };
 
     for (let question in answers) {
@@ -14,5 +17,5 @@ function checkResult() {
     }
 
     const resultDiv = document.getElementById("result");
-    resultDiv.innerHTML = `Bạn trả lời đúng ${score}/2 câu`;
+    resultDiv.innerHTML = `Bạn trả lời đúng ${score}/5 câu`;
 }
